@@ -13,3 +13,9 @@ spring:
   mvc:
     path-match:
       matching-strategy: ant_path_matcher
+
+server:
+  servlet:
+    session:
+      cookie:
+        max-age: 30m
